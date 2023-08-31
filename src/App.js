@@ -7,7 +7,7 @@ import MainNavigation from './components/layouts/MainNavigation';
 
 function App() {
   return (
-    <div>
+    <div className='top-div'>
       <BrowserRouter>
         <MainNavigation />
         <Routes>
